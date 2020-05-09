@@ -1,0 +1,50 @@
+*{box-sizing: border-box;}
+li{
+    list-style: none;
+    display: inline;
+    position: relative;
+    left: 220px;
+    font-size: 30px;
+    margin: 10px;
+    top: 40px;
+}
+.Header{
+width: 850px;
+margin: 0 auto;
+background-color: blue;
+height: 400px;
+}
+.Picture{
+position: relative;
+background-color: black;
+width: 150px;
+height: 150px;
+top: 310px;
+left: 40px;
+z-index: 2;
+}
+.NavBar{
+width: 850px;
+height: 150px;
+margin: 0 auto;
+position: relative;
+background-color: red;
+top: -16px;
+}
+.ParentCollum{
+width: 850px;
+margin: 0 auto;
+position: relative;
+}
+.LeftCollum{
+height: 200px;
+width: 328px;
+background-color: green;
+float: left;
+}
+.RightCollum{
+height: 200px;
+width: 512px;
+background-color: green;
+float: right;
+}
